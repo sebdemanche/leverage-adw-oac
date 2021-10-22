@@ -84,7 +84,7 @@ _Estimated Lab Time:_ 15 minutes
 
 3. Under **Create administration credentials** section:
 
-    > **Administrator Password:** Enter any password you wish to use noting the specific requirements imposed by ADW. A suggested password is ADWwelcome-1234.
+    > **Administrator Password:** Enter any password you wish to use noting the specific requirements imposed by ADW. A suggested password is **ADWwelcome-1234**.
     >
     > **Reminder:** Note your password in a safe location as this cannot be easily reset.
 
@@ -113,7 +113,7 @@ _Estimated Lab Time:_ 15 minutes
 
     The provisioning process should take **under 5 minutes**.
 
-9. After having the Autonomous Database instance **created** and **available**, you you may be prompted with a Pop Up window asking you to upgrade (from 18c to 19c, if you have selected 18c as a database version during the provisioning - the database version might be different). You may choose to upgrade the database version after the hands-on session, otherwise the upgrade process can take a few minutes, and you may miss a few exercises during the session.
+9. After having the Autonomous Database instance **created** and **available**, you may be prompted with a Pop Up window asking you to upgrade (from 18c to 19c, if you have selected 18c as a database version during the provisioning - the database version might be different). You may choose to upgrade the database version after the hands-on session, otherwise the upgrade process can take a few minutes, and you may miss a few exercises during the session.
 
     This page is known as the **Autonomous Database Details Page**. It provides you with status information about your database, and its configuration. Get **familiar** with the buttons and tabs on this page.  
     ![ADB Creation Details](./images/lab100_adw_readya.png)
