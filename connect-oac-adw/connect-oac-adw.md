@@ -142,18 +142,35 @@ Now lets create a Data Set using the ADWH connection just created. And lets sele
 
     ![Data Set Creation - ADWH](./images/createdataset2small.png)
 
-3. In the next window, search for **DCA\_SALES\_DATA** table in **ADMIN**  *schema* and click **Add All**.
+3. In the next window, search for **DCA\_SALES\_DATA** table in **ADMIN**  *schema* and drag and drop it in the middle of screen
+
+   ![Data Set Creation -DCA_SALES_DATA](./images/createdataset3A.png)
+
+   The informations of the table are displayed. Click on the tab **DCA_SALES_DATA**
+
+
+   ![Data Set Creation -DCA_SALES_DATA](./images/createdataset3B.png)
+
+   Click now the **Edit Definition** button
+
+   ![Data Set Creation -DCA_SALES_DATA](./images/createdataset3C.png)
+
+   and click **Add All**.
 
     ![Data Set Creation -DCA_SALES_DATA](./images/createdataset3.png)
 
     Once you add the columns the **Data Set name** took as the default table name (**DCA\_SALES\_DATA**)
 
     Data can be previewed with just a click.
-    Click **Get Preview Data** and then Click **Add** to create the Data Set.  
+    Click **Get Preview Data** and then Click **OK** to create the Data Set.  
     ![Data Set Creation - Ready](./images/createdataset4.png)
 
-    Once the Data Set is created, it undergoes column-level profiling to produce a set of semantic recommendations to repair or enrich your data.
 
+    Click on the **Save** button     ![Data Set Creation -DCA_SALES_DATA](./images/Save.png) and name it **DCA_SALES_DATA**
+
+    ![Data Set Creation -DCA_SALES_DATA](./images/Save1.png)
+
+    Once the Data Set is created, it undergoes column-level profiling to produce a set of semantic recommendations to repair or enrich your data.
     That's the **Augmented Data Enrichment** with _Semantic Profiling_ and _Type Discovery_ machine learning (**ML**) driven process. It's over 20 geographic and demographic enrichments and out of the box recognition of over 30 semantic types.
 
     Based on the data we have a number of 8 recommendations based on SALES_DATE column.
@@ -167,9 +184,8 @@ Select (click) **'CUST\_ID'** column go to Properties Pane from down left, Gener
 5. Lets also change the aggregation rule for **Loyalty ID** and rename the column.  
 Select (click) **'Loyalty\_ID'** column
 Go to 'Loyalty\_ID' **options** ![Loyalty\_ID](./images/renameloyaltyid0.png) > Click and select **Rename** ![Loyalty\_ID](./images/renameloyaltyid.png)  
-In the dialog box type in Name "**# Customers**" and Click **Add Step** button  
+In the dialog box type in Name "**# Customers**"![Loyalty\_ID](./images/renameloyaltyid1.png)  
 
-    ![# Customers](./images/addstep.png) 
 
 6. Change Aggregation from Sum to Count Distinct Select (click) **# Customers** go to General Property Pane > **Aggregation** > Select **Count Distinct**  
 
@@ -184,15 +200,14 @@ Select (click) **SALES\_DATE** column, go to Options > **Extract** > Week
 
     ![Rename](./images/salesweek.png)
    
-9. Type in **Sales Week** and Click on **Add Step**  
+    Type in **Sales Week**
 
-    ![Sales Week](./images/salesweek2.png)
+    ![Rename](./images/RenameWeek.png)
 
-10. Apply the preparation script to persist all the data transformation we did.  
-On top left is the Preparation Script Pane, which keeps track of every change to your Data Set. Each Step can be Modify/Remove.  
-In Preparation **Script Pane** click **Apply Script**  to apply the property changes to the Data Set. 
+9. On top left is the Preparation Script Pane, which keeps track of every change to your Data Set. Each Step can be Modify/Remove.  
 
-    ![Apply Script](./images/applyscriptresize.png)
+    Click on the **Save** button     ![Data Set Creation -DCA_SALES_DATA](./images/Save.png)
+
 
 You have just finished to Load and Prepare your Data.
 
