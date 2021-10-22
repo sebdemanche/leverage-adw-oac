@@ -9,7 +9,7 @@ The following hands-on workshop will walk users through connecting **Oracle Anal
 
 This workshop is based on "**OAC+ADW Workshop**" from [Oracle Analytics Library](https://www.oracle.com/business-analytics/data-visualization/tutorials.html), Tutorials tab.
 
-You can also leverage the 2 corresponding videos "**Oracle Analyitics Cloud + ADWC Simple Workshop**"
+You can also leverage the 2 corresponding videos "**Oracle Analytics Cloud + ADWC Simple Workshop**"
 
 [](youtube:playlist?list=PL6gBNP-Fr8KVdvmZUg7eqXljXnFhidBV-)
 [PM Videos](https://www.youtube.com/playlist?list=PL6gBNP-Fr8KVdvmZUg7eqXljXnFhidBV-)
