@@ -67,7 +67,7 @@ You can access to the '***Autonomous Database Details***' page using the cloud c
 
 ### Download your Autonomous Database wallet
 
-    You need first to download the wallet file containing your credentials. There are two types of wallet:  
+You need first to download the wallet file containing your credentials. There are two types of wallet:  
     - **Instance Wallet**: Wallet for a single database only; this provides a database-specific wallet  
     - **Regional Wallet**: Wallet for all Autonomous Databases for a given tenant and region (this includes all service instances that a cloud account owns)  
     > **Note**: Oracle recommends you provide a database-specific wallet, using Instance Wallet, to end users and for application use whenever possible. Regional wallets should only be used for administrative purposes that require potential access to all Autonomous Databases within a region.
