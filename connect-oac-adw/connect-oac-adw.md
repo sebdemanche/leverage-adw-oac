@@ -65,14 +65,14 @@ You can access to the '***Autonomous Database Details***' page using the cloud c
 
 > **Note**: This section assumes you have already created your Oracle Analytics Cloud instance as part of the 'Lab 2 - Provisioning your Oracle Analytics Cloud (OAC)' instance section. If not, please return to the beginning of Lab2 and go through the instance creation.
 
-1. ### Download your Autonomous Database wallet
+### Download your Autonomous Database wallet
 
     You need first to download the wallet file containing your credentials. There are two types of wallet:  
     - **Instance Wallet**: Wallet for a single database only; this provides a database-specific wallet  
     - **Regional Wallet**: Wallet for all Autonomous Databases for a given tenant and region (this includes all service instances that a cloud account owns)  
     > **Note**: Oracle recommends you provide a database-specific wallet, using Instance Wallet, to end users and for application use whenever possible. Regional wallets should only be used for administrative purposes that require potential access to all Autonomous Databases within a region.
 
-2. Go back to "***Autonomous Database Details***" page for your Autonomous Database, click the **DB Connection** button.
+1. Go back to "***Autonomous Database Details***" page for your Autonomous Database, click the **DB Connection** button.
 
     You can access to the '***Autonomous Database Details***' page using the cloud console page.  
     ![ADW DB Console](./images/lab300_3g.png)
@@ -82,11 +82,11 @@ You can access to the '***Autonomous Database Details***' page using the cloud c
 
    You will be asked to provide a **password** for the wallet. The password must meet the rules for the **Oracle Cloud password** complexity. This password is a password that you need to remember for your **wallet**. You can use the **admin password** that you created before.
 
-3. Select **Download** and save the wallet to your **local machine**.  
+2. Select **Download** and save the wallet to your **local machine**.  
 
     ![Oracle Wallet Download](./images/lab300_5.png)
 
-4. You can now **Close** the **Database Connection** pop up window.
+3. You can now **Close** the **Database Connection** pop up window.
 
     ![Oracle Wallet Close](./images/lab300_6.png)
 
