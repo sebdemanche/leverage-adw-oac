@@ -48,7 +48,7 @@ _Estimated Lab Time:_ 15 minutes
 
     Enter the required information and click the **Create Autonomous Database** button at the bottom of the form. For the purposes of this workshop, use the information below:
 
-    >**Compartment:** Verify that a compartment ( &lt;tenancy_name&gt; ) is selected.
+    >**Compartment:** Verify that a compartment ( &lt;workshops&gt; ) is selected.
 
 
     By default, any OCI tenancy has a default ***root*** compartment, named after the tenancy itself. The tenancy administrator (default root compartment administrator) is any user who is a member of the default Administrators group. For the workshop purpose, you can use ***root*** or create your own _Compartment_ under the **root** folder.
