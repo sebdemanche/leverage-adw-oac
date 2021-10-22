@@ -41,7 +41,6 @@ _Estimated Lab Time:_ 15 minutes
 
     This will take you to the management console page.
 
-    [You can learn more about compartments in this link](https://docs.cloud.oracle.com/en-us/iaas/Content/Identity/Tasks/managingcompartments.htm).
 
 2. To create a new instance, click the blue **Create Autonomous Database** button.
 
@@ -51,7 +50,11 @@ _Estimated Lab Time:_ 15 minutes
 
     >**Compartment:** Verify that a compartment ( &lt;tenancy_name&gt; ) is selected.
 
+
     By default, any OCI tenancy has a default ***root*** compartment, named after the tenancy itself. The tenancy administrator (default root compartment administrator) is any user who is a member of the default Administrators group. For the workshop purpose, you can use ***root*** or create your own _Compartment_ under the **root** folder.
+
+            [You can learn more about compartments in this link](https://docs.cloud.oracle.com/en-us/iaas/Content/Identity/Tasks/managingcompartments.htm).
+
 
      > **Display Name:** Enter the display name for your ADW Instance. Use a user-friendly name to help you easily identify the resource. You can leave the name provided. That field is not a mandatory one.
 
