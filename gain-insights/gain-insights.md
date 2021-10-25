@@ -104,6 +104,14 @@ Go to **Analytics** tab, and click on "Linear" you can select a different Method
     Method is Next 3 periods, Model is Seasonal ARIMA (a regular pattern of changes that repeats over time periods), with 95% Prediction Interval.  
     > if you want more control over the various options for the computation you can create a [custom calculations](https://blogs.oracle.com/analytics/how-to-add-functions-with-a-simple-right-click-in-oracle-analytics) using Analytics functions.
 
+7. Save the project and name it **Project_SALES**
+
+    ![Save project](../connect-oac-adw/images/Save.png)
+    ![Forecast Properties Pane](../gain-insights/images/saveproject.png)
+
+Click on **Save**
+
+
 You have just finished to learn how to start from direct questions on your data. You can move and explore automated generated visuals and enhancing by adding one-click advanced analytics functions to get further future looking insights.
 
 You may now [proceed to the next lab](#next)
