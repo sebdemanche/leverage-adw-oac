@@ -187,11 +187,11 @@ Click on the microphone icon and speak “**show me value by week and customers 
 Interesting visuals can be added to daily feeds. The daily feeds appear on the Home screen when the user logs in every time.  
 Choose two visuals, click on the 3 dots and select **Add to Your Feed**.  
 
-   ![Speak](../ask-direct-questions/images/daybydayaddfeed.png)
+   ![Speak](../ask-direct-questions/images/daybydayaddfeed2.png)
 
 18.   **Comment**.  
 Choose a visual, click on the 3 dots and select **Comments**. Speak or type “**Please review ASAP**”.  
-    ![Comment](../ask-direct-questions/images/daybydaycomment.png)
+    ![Comment](../ask-direct-questions/images/daybydaycomment2.png)
     Note: see “**1 comment**” ![Comment](../ask-direct-questions/images/daybydaycomment1small.png) at the bottom of the feed
 
 ## Task 4: Troubleshoot and Fine-Tune Searches
@@ -279,6 +279,6 @@ You may now [proceed to the next lab](#next)
 ## **Acknowledgements**
 
 - **Author** - Lucian Dinescu, Product Strategy, Analytics
-- **Contributors** -
+- **Contributors** - Sébastien Demanche, Cloud Center of Excellence
 - **Reviewed by** - Shiva Oleti, Product Strategy, Analytics 
 - **Last Updated By/Date** - Lucian Dinescu, April 2021
