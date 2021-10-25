@@ -146,7 +146,7 @@ Now lets create a Data Set using the ADWH connection just created. And lets sele
 
    ![Data Set Creation -DCA_SALES_DATA](./images/createdataset3A.png)
 
-   The informations of the table are displayed. Click on the tab **DCA_SALES_DATA**
+   The informations of the table are displayed. Click on the tab **DCA\_SALES\_DATA**
 
 
    ![Data Set Creation -DCA_SALES_DATA](./images/createdataset3B.png)
@@ -166,7 +166,7 @@ Now lets create a Data Set using the ADWH connection just created. And lets sele
     ![Data Set Creation - Ready](./images/createdataset4.png)
 
 
-    Click on the **Save** button     ![Data Set Creation -DCA_SALES_DATA](./images/Save.png) and name it **DCA_SALES_DATA**
+    Click on the **Save** button     ![Data Set Creation -DCA_SALES_DATA](./images/Save.png) and name it **DCA\_SALES\_DATA**
 
     ![Data Set Creation -DCA_SALES_DATA](./images/Save1.png)
 
