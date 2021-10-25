@@ -181,7 +181,7 @@ Click on the microphone icon and speak “**show me value by week and customers 
        3. Personal Data Sets  
        4. Catalog items (projects, analyses, dashboards, and reports)
 
-      ![Speak](../ask-direct-questions/images/daybydaysearch3.png)
+      ![Speak](../ask-direct-questions/images/daybydaysearch4.png)
 
 17.  **Add visuals** to your feed.  
 Interesting visuals can be added to daily feeds. The daily feeds appear on the Home screen when the user logs in every time.  
