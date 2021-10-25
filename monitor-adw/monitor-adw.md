@@ -75,18 +75,25 @@ Open the browser page with your OAC canvas (previous lab) and click **Refresh Da
     ![No New Queries](../monitor-adw/images/ociadwhmonitoredsql3.png)
 
 10. Lets inspect the Data Set. It is set to _automatic caching_ and hence, _queries fetched from cache_.  
-Navigate to OAC, go to the **Data Pane > Data**, Right Click **DCA\_SALES\_DATA** and Select **Inspect**.  
 
-    ![Inspect](../monitor-adw/images/projectdatasetinspectsmall.png)
+    In the middle header, go to the tab **Data**
 
-11. Go to **General** tab and notice the **Data Access** is set _Automatic Caching_.
+    ![Inspect](../monitor-adw/images/Inspect1.png)
 
-    ![Data Access](../monitor-adw/images/projectdatasetinspect2small.png)
+    Click on the little pencil near the data set **DCA_SALES_DATA** 
+    
+    ![Inspect](../monitor-adw/images/Inspect2.png)
+
+    Click now on **Edit Definition** button
+
+    ![Inspect](../monitor-adw/images/Inspect3.png)
+
+    In the options on the right, notice the **Data Access** is set _Automatic Caching_.
 
 12. We need to set it to _Live_ to make sure queries are fired against the database.  
-Click **Data Access** and change to _Live_ > Click **Save** and then **Close**.
+Click **Data Access** and change to _Live_ > Click **OK**.
 
-    ![Data Access Live](../monitor-adw/images/projectdatasetinspect3small.png)
+    ![Inspect](../monitor-adw/images/Inspect4.png)
 
 13.   Lets regenerate the report to see if fresh queries are getting fired against the database.  
 Repeat Steps 2.4 and 2.5.  
