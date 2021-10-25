@@ -34,6 +34,8 @@ Hover the mouse over the **VALUE** and click the 'x' sign.
 2.  **Add Trend Line**.  
 In the Properties Pane select the **Analytics** **icon** and double-click **Add Trend Line**.
 
+     _Click on the **Refresh Data** button in the trend line doesn't appear automatically._
+
     ![Add Trend Line](../build-analysis/images/add-trendlinesmall.png)
 
 3.  **Rename** Canvas.  
@@ -68,15 +70,17 @@ Go Analytics Property Pane > Trend and click x.
 
     ![Remove Trend Line](../build-analysis/images/remove-trend.png)
 
+     _Click on the **Refresh Data** button in the trend line doesn't disappear automatically._
+
 9.  Lets **Drill** on Direct Channel to SUB\_CATEGORY.  
 Click first on the Direct Channel value (in the legend), hover the mouse on Channel Direct
-Right Click > **Drill to Attribute/Hierarchy** and select Data Elements > SUB\_CATEGORY.  
+Right Click > **Drill to Attribute/Hierarchy** and select Data Elements > **SUB\_CATEGORY**.  
 This Drill to [Attribute Name] to directly drill to a specific attribute within a visualization.
 
     ![Drill To](../build-analysis/images/channeldirect-drillto.png)  
     ![Drill To Subcategory](../build-analysis/images/channeldirect-drilltosubcategorysmall.png)
 
-10.  Select _Sales Week_ on Category (X-Axis) and make sure _Sub Category_ is on Color
+10.  Select _Sales Week_ on Category (X-Axis) and _Sub Category_ on Color
 
      Lets look at the results for 'Customers by Sales Week and Subcategory'.
 
@@ -112,7 +116,7 @@ Click on Grammar Pane Visualization type  and select **Treemap** chart.
      ![Treemap](../build-analysis/images/customerssubcategory-treemap.png)
 
 17.  Remove legend from the Treemap Visualization.  
-Go **Property Pane**, click **General** tab, **Legend** element and select **None**.
+Go **Property Pane**, click **General** tab, **Legend Position** element and select **None**.
 
      ![Legend None](../build-analysis/images/change-legendtonone2.png)
 
