@@ -19,9 +19,9 @@ _Estimated Lab Time_: 15 minutes
     * Lab 1: Provisioning your Autonomous Database instance
     * Lab 2: Provisioning your Oracle Analytics Cloud instance
     * Lab 3: Connecting OAC to ADW and adjusting Data Set properties
-    * Lab 5: Gaining Insights with Visual Data Dialog
-    * Lab 6: Monitoring and Ad-hoc scaling up ADW activity for optimal OAC experience
-    * Lab 7: Building simple Interactive Analysis
+    * Lab 6: Gaining Insights with Visual Data Dialog
+    * Lab 7: Monitoring and Ad-hoc scaling up ADW activity for optimal OAC experience
+    * Lab 8: Building simple Interactive Analysis
 
 ## Task 1: Add Additional Data Set
 
@@ -42,11 +42,13 @@ Select **Add Data Set...**
 3.  Create Data Set.  
 Click **Create Data Set** button, Click 'Drop data file here or click to browse' area and Select the location where you've copied 'customers.xlsx' file.
 
-    ![Add Data Set](../mash-datasets/images/add-dataset2.png)
+    Click **Add** button
+
+    ![Add Data Set](../mash-datasets/images/add-dataset3.png)
 
 4.  Lets change the properties of the Data Set.  
 Set **CUST\_ID** as an **Attribute** so that we can join to our existing Data Set.  
-Click on **CUST\_ID** column, go to **General Property Pane** from bottom left, click on the default 'Match' properties from **Treat As** General Properties and change to **Attribute**.
+Click on **CUST\_ID** column, go to **General Property Pane** from bottom left, on **Treat As** General Properties change to **Attribute**.
 
     ![Treat As Attribute](../mash-datasets/images/prepscript-custidasattribute.png)
 
@@ -55,8 +57,10 @@ Click on **AGE** column, go to **General Property Pane** from bottom left, click
 
     ![Treat As Attribute](../mash-datasets/images/prepscript-ageasattribute.png)
 
-6.  Add the new Data Set.  
-Click **Add** button from top right.
+6.  Add the new Data Set.
+
+    Click **Edit Definition** button from top right.  
+    Click **Add** button from top right.
 
     ![Add Data Set](../mash-datasets/images/add-dataset3.png)
 
@@ -97,7 +101,7 @@ Type **Above 130**  (instead of Group 3), select **Add All**.
 
      ![Above 130](../mash-datasets/images/prepscript-group3.png)
 
-14. Type **Income Group** to Name, Click **OK** and Click **Add Step**.
+14. Type **Income Group** to Name, Click **Add Step**.
 
      ![Add Income Group](../mash-datasets/images/prepscript-group4.png)
 
@@ -111,11 +115,9 @@ Click **Apply Script**.
 When you add more than one data set to a project, the system tries to find matches for the data that’s added. It automatically matches external dimensions where they share a common name and have a compatible data type with attributes in the existing data set.  
 Lets join the Data Sets using **CUST\_ID** as the join condition between the data sets.
 
-1.  Go to **Data Diagram** tab.  
+1.  Go to **Data** tab.  
 In this tab, you can view a representation of the **different datasets** included in the project and their **relationships**.  
-Click on **Data Diagram** tab
-
-    ![Data Diagram](../mash-datasets/images/datadiagram.png)
+Click on **Data** tab
 
 2.  **Connect** Data Sets.  
 Currently, there is no relationship defined, so you see both as isolated boxes.  
