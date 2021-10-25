@@ -120,15 +120,16 @@ In this tab, you can view a representation of the **different datasets** include
 Click on **Data** tab
 
 2.  **Connect** Data Sets.  
-Currently, there is no relationship defined, so you see both as isolated boxes.  
-Mouse  hover on the imaginary dotted line **between** the two Data Sets and click on the **0 number** that will appear.
+Currently, there is probably a relationship defined.  
+Mouse  hover on the imaginary dotted line **between** the two Data Sets and click on the **1 number** (or **O number**) that will appear.
 
     ![Connect Data Sets](../mash-datasets/images/datadiagram-join.png)
 
 
 3.  **Blend Data** Sets.  
-A **pop-up window** appears allowing you to define a **new relation** between the datasets (join).  
-Click on **Add Another Match** button.
+A **pop-up window** appears allowing you to define a **new relation** between the datasets (join). 
+
+    If **CUST\_ID** already matched go to step 5, otherwise click on **Add Another Match** button.
 
     ![Blend Data Sets](../mash-datasets/images/datadiagram-blend1.png)
 
@@ -163,6 +164,6 @@ You may now [proceed to the next lab](#next)
 ## **Acknowledgements**
 
 - **Author** - Lucian Dinescu, Product Strategy, Analytics
-- **Contributors** -
+- **Contributors** - Sébastien Demanche, Cloud Center of Excellence
 - **Reviewed by** - Shiva Oleti, Product Strategy, Analytics
 - **Last Updated By/Date** - Lucian Dinescu, April 2021

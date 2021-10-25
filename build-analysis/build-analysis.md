@@ -171,6 +171,7 @@ Click **Direct** (there will be moved to **Selections** tab). Click anywhere in 
 Go to the **Filter Menu**, hover over CHANNEL, Click on the small down arrow and Select **Delete**.
      ![Donut](../build-analysis/images/remove-channelfilter.png)
 
+30. Click on the **Save** button to save the project.
 
 You have just finished learning how to create your first analysis, use filters and building new canvases by reusing the previous content.
 
