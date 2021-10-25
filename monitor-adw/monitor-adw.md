@@ -68,7 +68,7 @@ Examine the components of the Overview page:
 8.  Navigate to OAC canvas, lets **refresh** the data and see if new queries gets generated in ADW.  
 Open the browser page with your OAC canvas (previous lab) and click **Refresh Data** button from top right.
 
-    ![Refresh Data](../monitor-adw/images/oacrefreshdata2.png)
+    ![Refresh Data](../monitor-adw/images/oacrefreshdata3.png)
 
 9.  Navigate to ADW  tab you notice that no new queries are generated from OAC data refresh. What might be the reason?.
 
