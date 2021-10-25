@@ -108,7 +108,7 @@ Click **Add a Step(+)** and Click **Rename**.
      ![Rename Column](../data-flows/images/renamecolumn2.png)
 
 13. Lets now **save** the **output** as a table in our **ADW** connection.  
-Click **Add a Step(+)** and Click **Save**.
+Click **Add a Step(+)** and Click **Save Data**.
 
      ![Save Data](../data-flows/images/savedata.png)
 
@@ -121,7 +121,8 @@ Click **Add a Step(+)** and Click **Save**.
      ![Save](../data-flows/images/savedata2small.png)
      ![Save](../data-flows/images/savedata3small.png)
 
-15.  Column property can be changed at the time of saving the data to attribute/metric if needed.
+15.  Column property can be changed at the time of saving the data to attribute/metric if needed. 
+Change **_Measure_** to **_Attribute_** for the column **AGE**
 
      ![Column Property](../data-flows/images/savedata4small.png)
 
@@ -146,13 +147,19 @@ Click on **Go Back** icon.
 **Oracle SQL Developer Web (Database Actions)** is the web-based version of Oracle SQL Developer that enables you to execute queries and scripts, create database objects, load data, build data models, and monitor database performance.  
 To connect to Oracle SQL Developer Web you have at least a couple of options.
 
-1.  First option: you can replicate the steps from ""**Lab 3: Connecting OAC to ADW and adjusting Data Set properties**"", "**STEP 1: Load data to your Autonomous Database**".  
-Essentially from your **Autonomous Database Details** page, click the **Tools** tab. Click **Open SQL Developer Web**..
+1.  First option: you can replicate the steps from ""**Lab 3: Connecting OAC to ADW and adjusting Data Set properties**"", "**TASK 1: Load data to your Autonomous Database**".  
+Essentially from your **Autonomous Database Details** page, click the **Tools** tab. Click **Open Database Actions**
 
 2.  Second option: you can directly connect to the SQL Developer Web page URL. The URL should be similar to  
 <https://dbname.adb.us-ashburn-1.example.com/ords/schema-alias/_sdw/?nav=worksheet>  
-In the SQL Developer Web Sign in page, enter your **Username** and **Password**...
+
+    In the SQL Developer Web Sign in page, enter your **Username** and **Password**
     > For more details please check [Connect with Built-in Oracle Database Actions](https://docs.oracle.com/en/cloud/paas/autonomous-database/adbsa/sql-developer-web.html#GUID-102845D9-6855-4944-8937-5C688939610F)
+
+
+    In the Database Actions launchpad click on Development -> SQL
+
+    ![SQL](../data-flows/images/SQL.png)
 
 3.  Go to the **Worksheet** pane and **Run** a basic Select statement (SELECT * FROM ADMIN.DCA\_CUST\_DATA;)
 
@@ -176,6 +183,6 @@ You may now [proceed to the next lab](#next)
 ## **Acknowledgements**
 
 - **Author** - Lucian Dinescu, Product Strategy, Analytics
-- **Contributors** -
+- **Contributors** - Sébastien Demanche, Cloud Center of Excellence
 - **Reviewed by** - Shiva Oleti, Product Strategy, Analytics
 - **Last Updated By/Date** - Lucian Dinescu, April 2021
