@@ -80,7 +80,7 @@ Open the browser page with your OAC canvas (previous lab) and click **Refresh Da
 
     ![Inspect](../monitor-adw/images/Inspect1.png)
 
-    Click on the little pencil near the data set **DCA_SALES_DATA** 
+    Click on the little pencil near the data set **DCA\_SALES\_DATA** 
     
     ![Inspect](../monitor-adw/images/Inspect2.png)
 
@@ -96,7 +96,7 @@ Click **Data Access** and change to _Live_ > Click **OK**.
     ![Inspect](../monitor-adw/images/Inspect4.png)
 
 13.   Lets regenerate the report to see if fresh queries are getting fired against the database.  
-Repeat Steps 2.4 and 2.5.  
+Repeat Steps 8 and 9.  
 Now... if we refresh, fresh queries can be seen getting generated.
     
       ![New Queries](../monitor-adw/images/ociadwhmonitoredsql3.png)
