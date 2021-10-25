@@ -69,14 +69,16 @@ Go Analytics Property Pane > Trend and click x.
     ![Remove Trend Line](../build-analysis/images/remove-trend.png)
 
 9.  Lets **Drill** on Direct Channel to SUB\_CATEGORY.  
-Hover the mouse on Channel Direct
+Click first on the Direct Channel value (in the legend), hover the mouse on Channel Direct
 Right Click > **Drill to Attribute/Hierarchy** and select Data Elements > SUB\_CATEGORY.  
 This Drill to [Attribute Name] to directly drill to a specific attribute within a visualization.
 
     ![Drill To](../build-analysis/images/channeldirect-drillto.png)  
     ![Drill To Subcategory](../build-analysis/images/channeldirect-drilltosubcategorysmall.png)
 
-10.  Lets look at the results for 'Customers by Sales Week and Subcategory'.
+10.  Select _Sales Week_ on Category (X-Axis) and make sure _Sub Category_ is on Color
+
+     Lets look at the results for 'Customers by Sales Week and Subcategory'.
 
      ![Customers by Sales Week and Subcategory](../build-analysis/images/channeldirect-drilltosubcategoryimg.png)
 
@@ -112,7 +114,7 @@ Click on Grammar Pane Visualization type  and select **Treemap** chart.
 17.  Remove legend from the Treemap Visualization.  
 Go **Property Pane**, click **General** tab, **Legend** element and select **None**.
 
-     ![Legend None](../build-analysis/images/change-legendtonone.png)
+     ![Legend None](../build-analysis/images/change-legendtonone2.png)
 
 18.  Change back to **Donut**.
 Click on Grammar Pane Visualization type  and select **Donut** chart again.
@@ -145,30 +147,27 @@ Type in **Phones** and Click on the 'blue' check mark.
 Right-click the canvas tab and select  **Duplicate**.  
 This adds a copy of the selected canvas to the project’s row of canvas tabs.
 
-     ![Duplicate Canvas](../build-analysis/images/duplicate-canvassmall.png)
+     ![Duplicate Canvas](../build-analysis/images/duplicate-canvassmall2.png)
 
-25. Remove Use as Filter.  
-Select the Donut Visualization, Right Click and deselect **Use as Filter**.
-     ![Remove Use as Filter](../build-analysis/images/remove-useasfilter.png)
 
-26. Lets filter out the data to those sub categories where we are losing maximum customers - iPhones and Android phones.  
+25. Lets filter out the data to those sub categories where we are losing maximum customers - iPhones and Android phones.  
 Select **SUB_CATEGORY** from Data Pane and Drag and Drop it to **Filter area** .
      ![Filter Subcategory](../build-analysis/images/filter-subcategory.png)
 
-27. Select Android Phone and iOS Phones.  
+26. Select Android Phone and iOS Phones.  
 Click **Android Phone** and **iOS Phones** (they will be moved to **Selections** tab). Click anywhere in Filter area.
 
      ![Filter Phones](../build-analysis/images/filter-subcategoryandroidios.png)
 
-28. Filter **CHANNEL**.  
+27. Filter **CHANNEL**.  
 Go to Data Pane, select **CHANNEL** and drop it to Filter area.
      ![Filter Channel](../build-analysis/images/filter-channel.png)
 
-29. Select **Direct** Channel.  
+28. Select **Direct** Channel.  
 Click **Direct** (there will be moved to **Selections** tab). Click anywhere in Filter area..
      ![Filter Direct](../build-analysis/images/filter-channeldirect.png)
 
-30. Delete **CHANNEL** Filter.  
+29. Delete **CHANNEL** Filter.  
 Go to the **Filter Menu**, hover over CHANNEL, Click on the small down arrow and Select **Delete**.
      ![Donut](../build-analysis/images/remove-channelfilter.png)
 
@@ -184,6 +183,6 @@ You may now [proceed to the next lab](#next)
 ## **Acknowledgements**
 
 - **Author** - Lucian Dinescu, Product Strategy, Analytics
-- **Contributors** -
+- **Contributors** - Sébastien Demanche, Cloud Center of Excellence
 - **Reviewed by** - Shiva Oleti, Product Strategy, Analytics
 - **Last Updated By/Date** - Lucian Dinescu, April 2021
