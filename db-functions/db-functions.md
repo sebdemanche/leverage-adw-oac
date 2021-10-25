@@ -102,9 +102,9 @@ Select **#Customers** from Data Panel, Right-Click and Select **Create Best Visu
     ![Query Log](../db-functions/images/customerslog.png)
 
 6.  Lets open SQL Developer Web and run **APPROX\_COUNT\_DISTINCT** function with **DCA\_SALES\_DATA** 
-Select Overview > Autonomous Database > Autonomous Database Details > Tools > SQL DEveloper Web > Open SQL Developer Web
+Select Overview > Autonomous Database > Autonomous Database Details > Tools >  Database Actions > Open Database Actions
 
-    ![SQL Develope Web](../db-functions/images/sqldevweb.png)
+    ![SQL Develope Web](../db-functions/images/databaseactions.png)
 
 7.  Enter your **Username** and **Password** and click **Login In**
 
