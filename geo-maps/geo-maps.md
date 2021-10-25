@@ -212,6 +212,7 @@ Notice that it has exported the entire data from the filtered table (FL)
     ![Export](../geo-maps/images/exporttabel3small.png)  
     ![Export](../geo-maps/images/exporttabel4small.png)
 
+21. Go back to your project and click on the **Save** button to save it
 
 You have just finished learning about geo visualization, binning, filtering and download your data.
 

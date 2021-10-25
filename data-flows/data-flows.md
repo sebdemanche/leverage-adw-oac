@@ -23,10 +23,10 @@ _Estimated Lab Time_: 20 minutes
     * Lab 1: Provisioning your Autonomous Database instance
     * Lab 2: Provisioning your Oracle Analytics Cloud instance
     * Lab 3: Connecting OAC to ADW and adjusting Data Set properties
-    * Lab 5: Gaining Insights with Visual Data Dialog
-    * Lab 6: Monitoring and Ad-hoc scaling up ADW activity for optimal OAC experience
-    * Lab 7: Building simple Interactive Analysis
-    * Lab 8: Mashing up additional Data Sets, Contextual Data Preparation
+    * Lab 6: Gaining Insights with Visual Data Dialog
+    * Lab 7: Monitoring and Ad-hoc scaling up ADW activity for optimal OAC experience
+    * Lab 8: Building simple Interactive Analysis
+    * Lab 9: Mashing up additional Data Sets, Contextual Data Preparation
     * Lab 10: Geo Maps and Custom Binning
 
 ## Task 1: Data Flow
