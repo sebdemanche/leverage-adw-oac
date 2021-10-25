@@ -96,7 +96,7 @@ Click **Data Access** and change to _Live_ > Click **OK**.
     ![Inspect](../monitor-adw/images/Inspect4.png)
 
 13.   Lets regenerate the report to see if fresh queries are getting fired against the database.  
-Repeat Steps 8 and 9.  
+Repeat Steps 8 and 9  
 Now... if we refresh, fresh queries can be seen getting generated.
     
       ![New Queries](../monitor-adw/images/ociadwhmonitoredsql3.png)
