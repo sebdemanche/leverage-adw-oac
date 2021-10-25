@@ -32,6 +32,8 @@ After you have applied the [starter file script](https://objectstorage.us-ashbur
 
     ![Create Project](../immediate-insights/images/createproject.png)
 
+    Open the data set **DCA\_SALES\_DATA** if need
+
 3.  An empty **Canvas** is presented in **Visualization** tab  
 
     ![Create Project](../immediate-insights/images/blankcanvas.png)    
@@ -42,16 +44,16 @@ Before drowning into details, let us introduce you to the different sections of 
 1. An **Oracle Analytics Project** consist of **three main parts** (you can see them at the top center part of the screen):
 
    ![OAC Navigation](./images/lab300_23b.png)  
-     - **Prepare**: Here is where you prepare your data. You get a preview of each dataset on the project. You enrich it by adding columns, hiding or renaming the available ones. You can also define joins between datasets here  
+     - **Data**: Here is where you prepare your data. You get a preview of each dataset on the project. You enrich it by adding columns, hiding or renaming the available ones. You can also define joins between datasets here  
      - **Visualize**: Here is where you explore and Analyze the data. You can create several canvases to hold the different visualizations you define  
      - **Narrate**: Here is where you create a more presentation-oriented view of the analysis you created. This tab allows you to choose which insights to show and add comments and descriptions. It helps to understand your analysis journey and focus on showing the results
 
-    During this workshop, you will use the **Prepare** and **Visualize** tabs mainly.
+    During this workshop, you will use the **Data** and **Visualize** tabs mainly.
 
-2. You have already seen the **Prepare** screen on previous steps.  
+2. You have already seen the **Data** screen on previous steps.  
 The **Visualize** screen is this one:
 
-   ![OAC - Canvas explanation](./images/lab300_24a.png)
+   ![OAC - Canvas explanation](./images/lab300_24b.png)
 
     Main areas to note here are:  
     - **Elements Pane**: Contains all fields from your datasets to be used in the project  
@@ -130,6 +132,6 @@ You may now [proceed to the next lab](#next)
 ## **Acknowledgements**
 
 - **Author** - Lucian Dinescu, Product Strategy, Analytics
-- **Contributors** - Priscila Iruela, Database Business Development | Juan Antonio Martin Pedro, Analytics Business Development Victor Martin, Melanie Ashworth-March, Andrea Zengin
+- **Contributors** - Priscila Iruela, Database Business Development | Juan Antonio Martin Pedro, Analytics Business Development | Sébastien Demanche, Cloud Center of Excellence, Victor Martin, Melanie Ashworth-March, Andrea Zengin
 - **Reviewed by** - Shiva Oleti, Product Strategy, Analytics
 - **Last Updated By/Date** - Lucian Dinescu, February 2021

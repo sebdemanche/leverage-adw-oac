@@ -13,7 +13,7 @@ It interprets semantic layer, user private data, expression library and catalog 
 
 _Estimated Lab Time:_ 40 minutes
 
-![BI ASK](./images/biask0small.png)
+![BI ASK](./images/biask0small1.png)
 
 ### Objectives
 
