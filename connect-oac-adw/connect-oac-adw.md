@@ -202,7 +202,7 @@ Select (click) **SALES\_DATE** column, go to Options > **Extract** > Week
    
     Type in **Sales Week**
 
-    ![Rename](./images/RenameWeek.png)
+    ![Rename](./images/RenameWeek1.png)
 
 9. On top left is the Preparation Script Pane, which keeps track of every change to your Data Set. Each Step can be Modify/Remove.  
 
