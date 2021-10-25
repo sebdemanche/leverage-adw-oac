@@ -38,7 +38,7 @@ In the ADWH console, lets navigate to the Development tab and open the SQL Devel
 2. On the "***Autonomous Database Details***" page for your Autonomous Database, click the **Tools** region.  
 You can access to the '***Autonomous Database Details***' page using the cloud console page.  
 
-    ![ADW DB Console](./images/lab300_3a.png) 
+    ![ADW DB Console](./images/databaseactions.png) 
 
       - This will open a new window. Click **Open SQL Developer Web**, enter your **Username**, Click **Next**, enter your **Password** and then Click **Sign In**.  
       ![](./images/sqldev-username.png)
