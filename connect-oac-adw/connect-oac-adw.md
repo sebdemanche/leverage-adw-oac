@@ -40,7 +40,7 @@ You can access to the '***Autonomous Database Details***' page using the cloud c
 
     ![ADW DB Console](./images/databaseactions.png) 
 
-      - This will open a new window. Click **Open SQL Developer Web**, enter your **Username**, Click **Next**, enter your **Password** and then Click **Sign In**
+      - This will open a new window. Click **Open SQL Developer Web**, enter your **Username**, Click **Next**, enter your **Password** and then Click **Sign In**.
         
       ![](./images/sqldev-username.png)
       ![SQL Developer Web](./images/lab300_3b.png) 
