@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this lab, you will start creating your first simple interactive analysis, use filters, canvases and basically further investigate why we are losing customers from mobile phones.
+In this lab, you will start creating your first simple interactive analysis, use filters, projects and basically further investigate why we are losing customers from mobile phones.
 
 _Estimated Lab Time_: 20 minutes
 
